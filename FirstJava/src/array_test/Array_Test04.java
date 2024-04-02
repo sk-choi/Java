@@ -11,6 +11,9 @@ public class Array_Test04 {
 		this.author = author;
 	}
 	
+	public void display() {
+	    System.out.println(title + " " + author);
+	  }
 	public static void main(String[] arg) {
 		Array_Test04 Book = new Array_Test04("Java Programming", "홍길동");
 		

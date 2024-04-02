@@ -11,8 +11,8 @@ public class BookTest {
 		Books[2] = new Array_Test04("초한지", "홍길동");
 		
 		for (int i = 0; i < Books.length; i++) {
-			
-			System.out.println(Books[i].toString());
+			//System.out.println(Books[i].toString());
+			Books[i].display();
 		} // 주소값 처리는 다음시간에...
 ;	}
 		

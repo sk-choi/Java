@@ -27,19 +27,19 @@ public class SwitchCase02 {
 		String dayString;
 		
 		switch(dayOfWeek) {
-		case 1:
+		case Calendar.MONDAY:
 			dayString = "월요일";
 			break;
-		case 2:
+		case Calendar.TUESDAY:
 			dayString = "화요일";
 			break;
-		case 3:
+		case Calendar.WEDNESDAY:
 			dayString = "수요일";
 			break;
-		case 4:
+		case Calendar.THURSDAY:
 			dayString = "목요일";
 			break;
-		case 5:
+		case Calendar.FRIDAY:
 			dayString = "금요일";
 			break;
 		default:
